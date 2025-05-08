@@ -81,13 +81,12 @@ diff(f, t)
 %
 %integral tentu
 %Definisi fungsi
-f = @(x) x.^2;
-%Batas integral
-a = 0;
-b = 1;
-%Menghitung integral tentu
-result = integral(f, a, b);
-
-%Menampilkan hasil
-disp(['Integral dari f(x) = x^2 dalam batas 0 hingga 1: ', num2str(result)]);
-
+% f = @(x) x.^2;
+% %Batas integral
+% a = 0;
+% b = 1;
+% %Menghitung integral tentu
+% result = integral(f, a, b);
+% 
+% %Menampilkan hasil
+% disp(['Integral dari f(x) = x^2 dalam batas 0 hingga 1: ', num2str(result)]);
